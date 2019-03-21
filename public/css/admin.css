@@ -1,0 +1,11 @@
+
+
+
+/* ------------ search result ------------------------- */
+#search-result {background: white;color:black;position: absolute;border-radius: 5px;top:70px;text-align: left;}
+#search-result ul {list-style-type: none;padding: 0;margin:0;}
+.video-search .col-12 .form-group {margin-bottom:3px;}
+#search-result ul li{padding:10px 20px;border-bottom:1px solid #d2d2d2;}
+#search-result ul li:first-child {border-radius: 3px 3px 0 0;}
+#search-result ul li:last-child {border-radius: 0 0 3px 3px;}
+#search-result ul li:hover {background:#d3d3d3;cursor: pointer;}

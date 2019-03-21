@@ -1,0 +1,59 @@
+#app {background: #1d1c18;color: white;height: 100vh;}
+.navbar-laravel {
+    background-color: #171612;
+    box-shadow: 0 2px 4px #61573059;
+}
+.navbar-nav.mr-auto {
+    color: #ffdb4b;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffdb4b;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+.welcome {border-bottom: 2px solid #ffdb4b;}
+.card {
+    background: #171612;
+    box-shadow: 3px 3px 19px #000000;
+    color: #ffcc2a;
+}
+p.navbar-brand {
+    margin-bottom: 0;
+    margin-right:30px;
+    font-size: 25px;
+}
+.admin-menu, .admin-content {
+    box-shadow: 3px 3px 19px #000000;
+    border-radius: 10px;
+}
+.admin-menu ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+.video-play {
+    border:5px solid #171613;
+    border-radius: 5px;
+}
+.video-play .row .col-8 {border-right: 2px solid #13120f;padding-right: 0;}
+.video-play .row .col-4 ul {padding: 0;list-style-type: none;margin-bottom:0;}
+.video-play .row .col-4 ul li{white-space: nowrap; overflow: hidden;text-overflow: ellipsis;border-bottom: 1px solid #121212;}
+.video-play .row .col-4 ul#queue-select li:hover{overflow: unset;background: #131212;cursor: pointer;color: #ffcc2a;}
+.video-play .row .col-4 {padding:15px;}
+.video-edit .import .btn {margin-bottom: -6px;}
+.custom-radio input, .custom-radio label, .custom-file input, .custom-file label {cursor: pointer;}
+.custom-file-input, .custom-file {width:28%;}
+.video-edit .row h4 {color:#ffcc2a;text-decoration: underline;}
+.import {margin-bottom:40px;}
+.import form input:focus {outline: none;}
+
+/* ------------ search result ------------------------- */
+#search-result {background: white;color:black;position: absolute;border-radius: 5px;top:70px;text-align: left;}
+#search-result ul {list-style-type: none;padding: 0;margin:0;}
+.video-search .col-12 .form-group {margin-bottom:3px;}
+#search-result ul li{padding:10px 20px;border-bottom:1px solid #d2d2d2;}
+#search-result ul li:first-child {border-radius: 3px 3px 0 0;}
+#search-result ul li:last-child {border-radius: 0 0 3px 3px;}
+#search-result ul li:hover {background:#d3d3d3;cursor: pointer;}
+
+
